@@ -42,11 +42,11 @@ Or
   Using Docker
   Install Docker Software
 
-  - Pull Docker Image by using below Command
-  docker pull krssrinivas/poojastores:1
+  - Pull Docker Image by using Command
+   $ docker pull krssrinivas/poojastores:1
 
-  - Create Container using following Command
-   docker run -d -p 5000:5000 --name KRSContainer-Poojastores krssrinivas/poojastores:1
+  - Create Container using Command 
+   $ docker run -d -p 5000:5000 --name KRSContainer-Poojastores krssrinivas/poojastores:1
   
   Access it thru web by
   http://publicip/localhost:5000
